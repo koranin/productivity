@@ -6,9 +6,7 @@ enable vim in terminal ([ref](https://unix.stackexchange.com/questions/4870/is-i
 
 ## vscode
 
-General
-
-Shortcut | Description
+General | Description
 --- | ---
 `cmd  p`| go to file
 `cmd shift p` | command palette
@@ -16,18 +14,16 @@ Shortcut | Description
 `cmd w` | close
 `cmd .` | quick fix
 
-Basic editing
 
-Shortcut | Description
+Basic editing | Description
 --- | ---
 `alt up/down` | move line up/down
-`alt shift up/down` | copy line up/down
+`alt shift up/down` | fcopy line up/down
 `cmd enter` | insert line below
 `cmd shift enter` | insert line above
 
-Multi-cursor
 
-Shortcut | Description
+Multi-cursor | Description
 --- | ---
 `cmd alt up/down` | multi-select
 
@@ -64,6 +60,8 @@ Shortcut | Description
 
 ## vim
 
+https://www.youtube.com/watch?v=_AOW5ThfI9Y
+
 Command | Description
 --- | ---
 `~` | char: toggle case
@@ -74,10 +72,14 @@ Command | Description
 
 ### one window
 
-`y$` copy to end of line
-`p` paste
+Command | Description
+--- | ---
+`y$` | copy to end of line
+`p` | paste
 
 ### multiple windows
 
-`*y$` copy to anther window
-`*p` paste from another window 
+Command | Description
+--- | ---
+`*y$` | copy to anther window
+`*p` | paste from another window 
