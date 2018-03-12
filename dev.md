@@ -35,6 +35,7 @@ Shortcut | Description
 `cmd k m` | change file language
 
 Editor management
+
 Shorcut | Description
 `cmd \` | split editor
 
@@ -45,7 +46,8 @@ Shortcut | Description
 `cmd w` | close
 `cmd k cmd w` | close all
 
-Display
+## Display
+
 Shortcut | Description
 --- | ---
 `cmd ctrl f` | toggle full screen
