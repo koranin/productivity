@@ -9,11 +9,10 @@ enable vim in terminal ([ref](https://unix.stackexchange.com/questions/4870/is-i
 General | Description
 --- | ---
 `cmd  p`| go to file
-`cmd shift p` | command palette
+`cmd P` | command palette
 `cmd ,` | settings
 `cmd w` | close
 `cmd .` | quick fix
-
 
 Basic editing | Description
 --- | ---
@@ -21,7 +20,6 @@ Basic editing | Description
 `alt shift up/down` | fcopy line up/down
 `cmd enter` | insert line below
 `cmd shift enter` | insert line above
-
 
 Multi-cursor | Description
 --- | ---
@@ -86,7 +84,7 @@ Command | Description
 `*y$` | copy to anther window
 `*p` | paste from another window 
 
-### github desktop
+## github desktop
 
 Command | Description
 --- | ---
