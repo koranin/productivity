@@ -35,6 +35,7 @@ Shortcut | Description
 Editor management
 
 Shorcut | Description
+--- | ---
 `cmd \` | split editor
 
 File management
