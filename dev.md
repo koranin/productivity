@@ -83,3 +83,10 @@ Command | Description
 --- | ---
 `*y$` | copy to anther window
 `*p` | paste from another window 
+
+### github desktop
+
+Command | Description
+--- | ---
+`cmd p` | push
+`cmd P` | pull
