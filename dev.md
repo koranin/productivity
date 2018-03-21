@@ -8,11 +8,11 @@ enable vim in terminal ([ref](https://unix.stackexchange.com/questions/4870/is-i
 
 General | Description
 --- | ---
-`cmd  p`| go to file
-`cmd P` | command palette
-`cmd ,` | settings
-`cmd w` | close
-`cmd .` | quick fix
+`⌘ p`| go to file
+`⌘ P` | command palette
+`⌘ ,` | settings
+`⌘ w` | close
+`⌘ .` | quick fix
 
 Basic editing | Description
 --- | ---
@@ -30,7 +30,7 @@ Rich languages editing
 Shortcut | Description
 --- | ---
 `cmd k cmd x` | trim training whitespace
-`cmd k m` | change file language
+`cmd k``m` | change file language
 
 Editor management
 
@@ -56,8 +56,8 @@ Shortcut | Description
 `ctrl G` | source control
 `cmd D` | debug
 `cmd X` | extensions
-`cmd k v` | preview markdown
-`cmd k z` | zen mode 
+`cmd k``v` | preview markdown
+`cmd k``z` | zen mode 
 
 ## vim
 
@@ -91,3 +91,11 @@ Command | Description
 --- | ---
 `cmd p` | push
 `cmd P` | pull
+
+### mac
+
+Command | Description
+--- | ---
+`cmd shift esc` | forst quit applications
+
+### 
