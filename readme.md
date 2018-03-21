@@ -30,7 +30,7 @@ Rich languages editing
 Shortcut | Description
 --- | ---
 `cmd k cmd x` | trim training whitespace
-`cmd k``m` | change file language
+`cmd k` `m` | change file language
 
 Shorcut | Description
 --- | ---
@@ -58,8 +58,8 @@ Shortcut | Description
 `ctrl G` | source control
 `cmd D` | debug
 `cmd X` | extensions
-`cmd k``v` | preview markdown
-`cmd k``z` | zen mode 
+`cmd k` `v` | preview markdown
+`cmd k` `z` | zen mode 
 
 ## vim
 
@@ -100,4 +100,3 @@ Command | Description
 --- | ---
 `cmd shift esc` | forst quit applications
 
-### 
