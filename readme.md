@@ -41,8 +41,7 @@ Shortcut | Description
 `cmd w` | close
 `cmd k cmd w` | close all
 
-Special
-Command | Description
+Special | Description
 --- | ---
 `^ ⌘ →/←` | move editor to left/right group
 `^ ⌘ 1/2/3` | move editor to 1/2/3 group
