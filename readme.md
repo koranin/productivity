@@ -99,3 +99,8 @@ Command | Description
 --- | ---
 `cmd shift esc` | forst quit applications
 
+### slack
+
+Command | Description
+--- | ---
+`cmd k` | search use
