@@ -25,7 +25,7 @@ Multi-cursor | Description
 --- | ---
 `cmd alt up/down` | multi-select
 
-Rich languages editing
+### Rich languages editing
 
 Shortcut | Description
 --- | ---
@@ -34,17 +34,28 @@ Shortcut | Description
 
 Shorcut | Description
 --- | ---
-`cmd \` | split editor
 
 Shortcut | Description
 --- | ---
 `cmd w` | close
 `cmd k cmd w` | close all
 
-Special | Description
+### Editor
+
+Shortcut | Description
 --- | ---
 `^ ⌘ →/←` | move editor to left/right group
 `^ ⌘ 1/2/3` | move editor to 1/2/3 group
+`⌘ \` | split editor (overwritten by LaunchBar)
+`⌘ 1/2/3` | split/select 1/2/3
+`⌘ w` | close
+`⌘ k ⌘ w` | close all
+
+### Markdown
+
+Shortcut | Description
+--- | ---
+`⌘k v` | open markdown preview
 
 ## Display
 
