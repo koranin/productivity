@@ -4,6 +4,10 @@ enable vim in terminal ([ref](https://unix.stackexchange.com/questions/4870/is-i
 
 `set -o vi`
 
+Command | Description
+--- | ---
+`exec bash -l` | switch between zsh and bash
+
 ## vscode
 
 General | Description
