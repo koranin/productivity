@@ -6,6 +6,12 @@
 
 Command | Description
 --- | ---
+`exec bash -l` | switch between zsh and bash
+
+## vscode
+
+General | Description
+--- | ---
 `ls -ld .?*` | list hidden files
 
 
