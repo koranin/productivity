@@ -1,61 +1,64 @@
-## bash
+# bash
 
-enable vim in terminal ([ref](https://unix.stackexchange.com/questions/4870/is-it-possible-to-have-vim-key-bindings-in-terminal))
+- enable vim in terminal ([ref](https://unix.stackexchange.com/questions/4870/is-it-possible-to-have-vim-key-bindings-in-terminal))
 
-`set -o vi`
+  `set -o vi`
 
-## vscode
-
-General | Description
+Command | Description
 --- | ---
-`⌘ p`| go to file
-`⌘ P` | command palette
-`⌘ ,` | settings
-`⌘ w` | close
-`⌘ .` | quick fix
+`ls -ld .?*` | list hidden files
 
-Basic editing | Description
---- | ---
-`alt up/down` | move line up/down
-`alt shift up/down` | fcopy line up/down
-`cmd enter` | insert line below
-`cmd shift enter` | insert line above
 
-Multi-cursor | Description
---- | ---
-`cmd alt up/down` | multi-select
+# vscode
+
+### Common
+
+Key    | Description
+------ | -----------
+⌘ p   | go to file
+⌘ P   | command palette
+⌘ ,   | settings
+⌘ w   | close
+⌘ .   | quick fix
+
+### Basic editing
+
+Keys       | Description
+---------- | -----------------
+⎇ `↑/↓`   | move line up/down
+⎇ ⇧ `↑/↓` | copy line up/down
+
+Multi-cursor      | Description
+----------------- | -----------
+⌘ ⎇ up/down      | multi-select
 
 ### Rich languages editing
 
-Shortcut | Description
---- | ---
-`cmd k cmd x` | trim training whitespace
-`cmd k` `m` | change file language
+Shortcut         | Description
+---------------- | -----------
+⌘k m            | change file language
 
-Shorcut | Description
---- | ---
-
-Shortcut | Description
---- | ---
-`cmd w` | close
-`cmd k cmd w` | close all
+Shortcut  | Description
+--------- | -----------
+⌘ w      | close
+⌘ k ⌘ w | close window
 
 ### Editor
 
-Shortcut | Description
---- | ---
-`^ ⌘ →/←` | move editor to left/right group
-`^ ⌘ 1/2/3` | move editor to 1/2/3 group
-`⌘ \` | split editor (overwritten by LaunchBar)
-`⌘ 1/2/3` | split/select 1/2/3
-`⌘ w` | close
-`⌘ k ⌘ w` | close all
+Shortcut   | Description
+---------- | ---
+^ ⌘ →/←   | move editor to left/right group
+^ ⌘ 1/2/3 | move editor to 1/2/3 group
+⌘ \       | split editor (overwritten by LaunchBar)
+⌘ 1/2/3   | split/select 1/2/3
+⌘ w       | close
+⌘ k ⌘ w  | close all
 
 ### Markdown
 
 Shortcut | Description
---- | ---
-`⌘k v` | open markdown preview
+-------- | ---
+⌘k v    | open markdown preview
 
 ## Display
 
@@ -69,19 +72,19 @@ Shortcut | Description
 `cmd D` | debug
 `cmd X` | extensions
 `cmd k` `v` | preview markdown
-`cmd k` `z` | zen mode 
+`cmd k` `z` | zen mode
 
 ## vim
 
 https://www.youtube.com/watch?v=_AOW5ThfI9Y
 
 Command | Description
---- | ---
-`~` | char: toggle case
-`s` | char: delete + insert mode
+------- | --------------------------
+`~`     | char: toggle case
+`s`     | char: delete + insert mode
 `ysaw'` | word: surround with '
-`yss'` | line: surround with '
-`J` | line: join below
+`yss'`  | line: surround with '
+`J`     | line: join below
 
 ### one window
 
@@ -95,7 +98,7 @@ Command | Description
 Command | Description
 --- | ---
 `*y$` | copy to anther window
-`*p` | paste from another window 
+`*p` | paste from another window
 
 ## github desktop
 
@@ -108,7 +111,7 @@ Command | Description
 
 Command | Description
 --- | ---
-`cmd shift esc` | forst quit applications
+`cmd shift esc` | force quit applications
 
 ### slack
 
