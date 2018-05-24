@@ -31,34 +31,32 @@ Key    | Description
 
 Keys       | Description
 ---------- | -----------------
-⎇ `↑/↓`   | move line up/down
-⎇ ⇧ `↑/↓` | copy line up/down
+⎇ ↑       | move line up
+⎇ ↓       | move line down
+⎇ ⇧ ↑     | copy line up
+⎇ ⇧ ↓     | copy line down
 
-Multi-cursor      | Description
------------------ | -----------
-⌘ ⎇ up/down      | multi-select
+Keys       | Description
+---------- | ------------------
+⌘ ⎇ ↑     | multi-select up
+⌘ ⎇ ↓     | multi-select down
 
 ### Rich languages editing
 
-Shortcut         | Description
+Keys             | Description
 ---------------- | -----------
 ⌘k m            | change file language
 
-Shortcut  | Description
---------- | -----------
-⌘ w      | close
-⌘ k ⌘ w | close window
-
 ### Editor
 
-Shortcut   | Description
----------- | ---
-^ ⌘ →/←   | move editor to left/right group
-^ ⌘ 1/2/3 | move editor to 1/2/3 group
-⌘ \       | split editor (overwritten by LaunchBar)
-⌘ 1/2/3   | split/select 1/2/3
-⌘ w       | close
-⌘ k ⌘ w  | close all
+Keys      | Action Description
+--------- | ----------------------------------
+⌘ 123    | select `group` 1/2/3
+^ ⌘ →    | move `editor` to left `group`
+^ ⌘ ←    | move `editor` to right `group`
+⌘w       | close `editor`
+⌘k w     | close `editor`
+⌘k ⌘w   | close `window`
 
 ### Markdown
 
@@ -68,17 +66,17 @@ Shortcut | Description
 
 ## Display
 
-Shortcut | Description
---- | ---
-`cmd ctrl f` | toggle full screen
-`cmd b` | toggle sidebar
-`cmd E` | explorer
-`cmd F` | search
-`ctrl G` | source control
-`cmd D` | debug
-`cmd X` | extensions
-`cmd k` `v` | preview markdown
-`cmd k` `z` | zen mode
+Shortcut     | Description
+------------ | ------------------
+^ ⌘ f       | toggle full screen
+⌘ b         | toggle sidebar
+⌘ E         | explorer
+⌘ F         | search
+⌘ G         | source control
+⌘ D         | debug
+⌘ X         | extensions
+⌘k v        | preview markdown
+⌘k z        | zen mode
 
 ## vim
 
@@ -86,25 +84,38 @@ https://www.youtube.com/watch?v=_AOW5ThfI9Y
 
 Command | Description
 ------- | --------------------------
-`~`     | char: toggle case
-`s`     | char: delete + insert mode
-`ysaw'` | word: surround with '
-`yss'`  | line: surround with '
-`J`     | line: join below
+~       | char: toggle case
+s       | char: delete + insert mode
+ysaw'   | word: surround with '
+yss'    | line: surround with '
+J       | line: join below
+zt      | scroll: top
+zz      | scroll: middle
+zb      | scroll: bottom
+
+ZZ save + close
+E! close + discarted
+(hello world)
+. repeat last command
+{ move up paragraph
+} move down paragraph
+
 
 ### one window
 
 Command | Description
---- | ---
-`y$` | copy to end of line
-`p` | paste
+------- | ---
+y$      | copy to end of line
+yaw or yiw ???  | copy word
+p       | paste
+P       | paste with space
 
 ### multiple windows
 
 Command | Description
---- | ---
-`*y$` | copy to anther window
-`*p` | paste from another window
+------- | ---
+*y$     | copy to anther window
+*p      | paste from another window
 
 ## github desktop
 
